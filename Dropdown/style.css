@@ -1,0 +1,37 @@
+.menu_area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: chartreuse;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_area a:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+.menu_area ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.menu_area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.menu_area li:hover .dropdown_1 > li{
+    display: block;
+    top: 0;
+}
+.dropdown_1 li{
+    display: none;
+    position: relative;
+}
+.dropdown_1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
