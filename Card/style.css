@@ -1,0 +1,18 @@
+.card{
+    max-width: 290px;
+    max-height: 290px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+.imag{
+    width: 290px;
+}
+.card h1{
+    position: absolute;
+    color: #fff;
+    margin-top: -1.5em;
+    margin-left: 0.5em;
+}
